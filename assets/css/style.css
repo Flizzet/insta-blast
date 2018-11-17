@@ -1,0 +1,28 @@
+/* General */
+* {
+	margin: 0px;
+	padding: 0px;
+	/* border: 1px solid red; */
+}
+.full-page {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.half-container {
+	width: 50%;
+	float: left;
+}
+body {
+	overflow-x: hidden;
+}
+
+.info-container {
+	padding: 3% 2%;
+}
+.info-container h1 i {
+	color: #d65c14;
+}
+.info-container h3 {
+	color: #d65c14;
+}

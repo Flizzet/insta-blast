@@ -1,0 +1,11 @@
+#footer-piece {
+	background-color: #2a2b33;
+	padding: 20px;
+	color: white;
+}
+#footer-piece .container .half-container:nth-child(2) {
+	text-align: right;
+}
+#footer-piece a {
+	color: white;
+}

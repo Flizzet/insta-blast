@@ -1,0 +1,80 @@
+.pricing-table {
+  padding: 60px 0px;
+}
+.pricing-table .circle {
+  background: lightgray;
+  padding: 35px;
+  text-align: center;
+  height: 250px;
+  width: 250px;
+  transition: all 0.5s;
+	  -moz-transition: all 0.5s; /* Firefox 4 */
+	  -webkit-transition: all 0.5s; /* Safari and Chrome */
+	  -o-transition: all 0.5s; /* Opera */
+}
+.pricing-table .circle h {
+  margin: 0;
+  padding: 0;
+}
+.pricing-table .circle span.icon i {
+  font-size: 48px;
+}
+.pricing-table .circle span.price-large {
+  font-size: 68px
+}
+.pricing-table .price-small {
+  font-size: 24px
+}
+
+.pricing-table .c1:hover {
+  background: #39b3d7;
+  color: #ffffff;
+	cursor: pointer;
+}
+.pricing-table .c1 .blue {
+  color: #39b3d7;
+}
+.pricing-table .c1:hover .blue {
+  color: #ffffff;
+	cursor: pointer;
+}
+
+.pricing-table .c2:hover {
+  background: #ed9c28;
+  color: #ffffff;
+	cursor: pointer;
+}
+.pricing-table .c2 .yellow {
+  color: #ed9c28;
+	cursor: pointer;
+}
+.pricing-table .c2:hover .yellow {
+  color: #ffffff;
+	cursor: pointer;
+}
+
+.pricing-table .c3:hover {
+  background: #47a447;
+  color: #ffffff;
+	cursor: pointer;
+}
+.pricing-table .c3 .green {
+  color: #47a447;
+}
+.pricing-table .c3:hover .green {
+  color: #ffffff;
+	cursor: pointer;
+}
+
+.pricing-table .c4:hover{
+  background: #d2322d;
+  color: #ffffff;
+	cursor: pointer;
+}
+.pricing-table .c4 .red{
+  color: #d2322d;
+}
+.pricing-table .c4:hover .red{
+  color: #ffffff;
+	cursor: pointer;
+}

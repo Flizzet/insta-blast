@@ -1,0 +1,73 @@
+.navbar-brand img {
+	height: 100%;
+	width: auto;
+}
+.navbar-brand {
+	float: left;
+
+}
+
+.navbar-brand .text {
+	margin-left: 10px;
+	float: left;
+}
+.navbar-brand img {
+	float: left;
+	height: 180%;
+	margin-top: -7%;
+}
+
+.navbar-inverse .navbar-nav > .active {
+	background: #d65c14;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #000;
+  background: #d65c14;
+}
+
+#navigation {
+	color: white !important;
+}
+
+#navigation, .nav a {
+	color: white !important;
+}
+
+#navigation, .nav a.disabled {
+	color: lightgray !important;
+  cursor: not-allowed;
+}
+
+#navigation, .nav, .navbar-brand {
+	color: white !important;
+}
+
+.navbar {
+	border-bottom: 3px solid black;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.navbar:before, .navbar:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+	top: 50%;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	border-radius: 100px / 10px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background-color: #101010;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #d65c14;
+}
+.dropdown-menu > li > a.disabled:hover {
+    background-color: black;
+}

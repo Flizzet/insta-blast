@@ -1,0 +1,18 @@
+@keyframes blast-off {
+	0% {
+		opacity: 0;
+		transform: translate(140%, 100%);
+	}
+	25% {
+		opacity: 1;
+		transform: translate(0, -50%);
+	}
+	75% {
+		opacity: 1;
+		transform: translate(0, -50%);
+	}
+	100% {
+		opacity: 0;
+		transform: translate(-350%, -400%);
+	}
+}
